@@ -136,6 +136,7 @@ body {
   
   align-items: center;
   margin: 1em;
+  padding-bottom: 2em;
 }
 
 .sidebar-header li img {
@@ -155,7 +156,7 @@ body {
   align-items: center;
   
   margin: 1em;
-  
+  padding-bottom: 2em;
 }
 
 .sidebar-mid li {
@@ -163,7 +164,7 @@ body {
 }
 
 .sidebar-mid li img {
-  width: 2em;
+  width: 1.5em;
   
 }
 
@@ -181,11 +182,11 @@ body {
 }
 
 .sidebar-end li {
-  padding: .5em;
+  padding: .5em; /* gives space between each li element*/
 }
 
 .sidebar-end li img {
-  width: 2em;
+  width: 1.5em;
 }
 
 .sidebar-end li a {
