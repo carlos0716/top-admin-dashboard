@@ -13,60 +13,56 @@
   <body>
     <div class="container">
       <div class="sidebar">
-        <ul class="sidebar__header">
-          <li class="sidebar__header__item">
-            <img src="/images/view-dashboard.svg" alt="dashboard logo" class="filter-white">
-            <p>Dashboard</p>
-          </li>
-        </ul>
-        <ul class="sidebar__first-section">                         
-          <li>
-            <img class="filter-white" src="/images/home.svg" alt="home icon" class="icon">
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <img class="filter-white" src="images/card-account-details-outline.svg" alt="card with user logo">
-            <a href="#">Profile</a>
-          </li>
-          <li>
-            <img class="filter-white" src="images/message-reply.svg" alt="text box">
-            <a href="#">Messages</a>
-          </li>
-          <li>
-            <img class="filter-white" src="images/clock-outline.svg" alt="">
-            <a href="#">History</a>
-          </li>
-          <li>
-            <img class="filter-white" src="images/file-document-multiple-outline.svg" alt="file logo">
-            <a href="#">Tasks</a>
-          </li>
-          <li>
-            <img class="filter-white" src="images/account-group.svg" alt="">
-            <a href="#">Communities</a>
-          </li>
-        </ul>
-        <ul class="sidebar__second-section">
-          <li>
-            <img class="filter-white" src="/images/cog.svg" alt="cog icon">
-            <a href="#">Settings</a>
-          </li>
-          <li><img class="filter-white" src="images/help-box-outline.svg" alt="help logo"><a href="#">Support</a></li>
-          <li><img class="filter-white" src="images/shield-check-outline.svg" alt="shield logo"><a href="#">Privacy</a></li>
-        </ul>
+        
+          <ul class="sidebar-header">
+            <li><img src="images/view-dashboard.svg" alt="" class="filter-white"></li>
+            <li ><p>Dashboard</p></li>
+          </ul>
+          
+          <ul class="sidebar-mid">
+            <li><img src="/images/home.svg" alt="" class="filter-white"></li>
+            <li><a href="">Home</a></li>
+            
+            <li><img src="/images/card-account-details-outline.svg" alt="" class="filter-white"></li>
+            <li><a href="">Profile</a></li>
+            <li><img src="/images/message-reply.svg" alt="" class="filter-white"></li>
+            <li><a href="">Messages</a></li>
+            <li><img src="/images/clock-outline.svg" alt="" class="filter-white"></li>
+            <li><a href="">History</a></li>
+            <li><img src="images/file-document-multiple-outline.svg" alt="" class="filter-white"></li>
+            <li><a href="">Tasks</a></li>
+            <li><img src="images/account-group.svg" alt="" class="filter-white"></li>
+            <li><a href="">Communities</a></li>
+          </ul>
+
+          <ul class="sidebar-end">
+            <li><img src="images/cog.svg" alt="" class="filter-white"></li>
+            <li><a href="">Settings</a></li>
+            <li><img src="images/help-box-outline.svg" alt="" class="filter-white"></li>
+            <li><a href="">Support</a></li>
+            <li><img src="images/shield-check-outline.svg" alt="" class="filter-white"></li>
+            <li><a href="">Privacy</a></li>
+          </ul>
       </div>
+      
       <div class="main-content">
-        <div class="header">
-          <div class="search__bar">
-            <form action="">
-              <img src="images/magnify.svg" alt="magnifying glass logo"><input type="search">
-            </form>
+        <div class="main-content-header">
+          <div class="top-header">
+            <div class="top-header-left">
+             
+                <img src="images/magnify.svg" alt="magnifying glass logo" class="filter-black glass">
+                <form action=""><input type="search" name="search-bar" id="search-bar" class="search-bar"></form>
+              
+            </div>
+          
+          
+            <div class="top-header-right">
+              <img class="filter-black" src="images/bell-ring.svg" alt="">
+              <img class="main-logo" src="images/cool-anarchy-punk.jpeg" alt="logo">
+              <p>Morgan Oakley</p>
+            </div>
           </div>
-          <div class="header__right">
-            <img class="filter-white" src="images/bell-ring.svg" alt="">
-            <img class="filter-white" src="images/cool-anarchy-punk.jpeg" alt="logo">
-            <p>Morgan Oakley</p>
-          </div>
-          <div class="header-name"><img src="images/cool-anarchy-punk.jpeg" alt="logo">
+          <div class="bottom-header"><img src="images/cool-anarchy-punk.jpeg" alt="logo">
             <p>Hi there,
               <br>
                Morgan Oakley
@@ -83,9 +79,27 @@
           <div class="main__projects">
             <p class="fw-bold">Your Projects</p>
             <div class="projects__section">
-              <div class="projects-card"><p class="card-title fw-bold">Super Cool Project</p><p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nisi officia itaque esse dicta voluptatem?</p><img src="images/star-plus-outline.svg" alt="star logo"><img src="images/eye-plus-outline.svg" alt="eye logo"><img src="images/vector-polyline.svg" alt="vector logo"></div>
-              <div class="projects-card"><p class="card-title fw-bold">Less Cool Project</p><p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati vel facere similique laboriosam minima.</p><img src="images/star-plus-outline.svg" alt="star logo"><img src="images/eye-plus-outline.svg" alt="eye logo"><img src="images/vector-polyline.svg" alt="vector logo"></div>
-              <div class="projects-card"><p class="card-title fw-bold">Impossible App</p><p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati vel facere similique laboriosam minima.</p><img src="images/star-plus-outline.svg" alt="star logo"><img src="images/eye-plus-outline.svg" alt="eye logo"><img src="images/vector-polyline.svg" alt="vector logo"></div>
+              <div class="projects-card">
+                <p class="card-title fw-bold">Super Cool Project</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nisi officia itaque esse dicta voluptatem?</p>
+                <img src="images/star-plus-outline.svg" alt="star logo">
+                <img src="images/eye-plus-outline.svg" alt="eye logo">
+                <img src="images/vector-polyline.svg" alt="vector logo">
+              </div>
+              <div class="projects-card">
+                <p class="card-title fw-bold">Less Cool Project</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati vel facere similique laboriosam minima.</p>
+                <img src="images/star-plus-outline.svg" alt="star logo">
+                <img src="images/eye-plus-outline.svg" alt="eye logo">
+                <img src="images/vector-polyline.svg" alt="vector logo">
+              </div>
+              <div class="projects-card">
+                <p class="card-title fw-bold">Impossible App</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati vel facere similique laboriosam minima.</p>
+                <img src="images/star-plus-outline.svg" alt="star logo">
+                <img src="images/eye-plus-outline.svg" alt="eye logo">
+                <img src="images/vector-polyline.svg" alt="vector logo">
+              </div>
               <div class="projects-card"><p class="card-title fw-bold">Easy Peasy App</p><p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati vel facere similique laboriosam minima.</p><img src="images/star-plus-outline.svg" alt="star logo"><img src="images/eye-plus-outline.svg" alt="eye logo"><img src="images/vector-polyline.svg" alt="vector logo"></div>
               <div class="projects-card"><p class="card-title fw-bold">Ad Blocker</p><p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati vel facere similique laboriosam minima.</p><img src="images/star-plus-outline.svg" alt="star logo"><img src="images/eye-plus-outline.svg" alt="eye logo"><img src="images/vector-polyline.svg" alt="vector logo"></div>
               <div class="projects-card"><p class="card-title fw-bold">Money Maker</p><p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati vel facere similique laboriosam minima.</p><img src="images/star-plus-outline.svg" alt="star logo"><img src="images/eye-plus-outline.svg" alt="eye logo"><img src="images/vector-polyline.svg" alt="vector logo"></div>
