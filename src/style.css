@@ -116,8 +116,8 @@ body {
   font-family: var(--ff-body);
   display: grid;
   grid-template-columns: 1fr 4fr;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
   background-color: var(--clr-neutral-100);
 }
 
@@ -239,6 +239,7 @@ li a{
   width: 90%;
   background-color: var(--clr-neutral-200);
   border-radius: 1em;
+  outline: none;
 }
 
 /* Main section header*/
@@ -257,7 +258,7 @@ li a{
 }
 
 .bottom-header-left > img {
-  max-width: 15em;
+  width: 6em;
   grid-area: pic;
   place-self: center;
 }
@@ -287,11 +288,95 @@ li a{
   font-weight: var(--fw-bold);
 }
 
+button:hover {
+  background-color: var(--clr-neutral-100);
+  border: 2px solid var(--clr-primary-400);
+  color: var(--clr-primary-400);
+}
+
+/* main section styles */
+
+.main-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: var(--clr-neutral-200);
+  padding: 2em;
+}
+
+.main__projects {
+  
+}
+
+.main__projects-title {
+  margin-bottom: 1em;
+}
+
+.projects__section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  gap: .5em;
+}
+
+.projects-card {
+  width: 350px;
+  height: auto;
+  border-left: 10px solid var(--clr-secondary-400);
+  border-radius: 5px;
+  background-color: var(--clr-neutral-100);
+  padding: 1.5em;
+}
+
+.projects-card img {
+  width: 1.3em;
+  filter: invert(55%) sepia(5%) saturate(4%) hue-rotate(326deg) brightness(97%) contrast(83%);
+}
+
+.card-icons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 1em;
+}
+
+.card-text {
+  color: var(--clr-neutral-300);
+}
+
+.main__announcements {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content auto auto;
+  font-size: var(--fs-300);
+  
+}
+
+.announcements__title {
+  margin-bottom: 1em;
+  font-size: 16px;
+}
+
+.announcements__card {
+  width: 250px;
+  height: 300px;
+  background-color: var(--clr-neutral-100);
+  justify-items: center;
+}
+
+.card__title {
+  font-weight: var(--fw-bold);
+}
+
+.trending-card {
+  width: 250px;
+  height: auto;
+  background-color: var(--clr-neutral-100);
+}
 /* Utility classes*/
 
 .text-primary-400 {
   color: var(--clr-neutral-700)
 }
+
 
 .text-primary-600 {
   font-size: var(--fs-600);
@@ -314,6 +399,6 @@ li a{
 }
 
 div img {
-  max-width: 10em;
+  max-width: 5em;
   border-radius: 50%;
 }
